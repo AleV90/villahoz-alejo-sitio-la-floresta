@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../CSS/estilos.css">
+    <link rel="shortcut icon" href="../Img/favicomfloresta.jpeg" type="image/x-icon">
+    <title>La Floresta - Contacto</title>
+</head>
+<body class="body__contacto">
+<!-- Comienzo del Header -->
+    <header class="header">    
+        <div id="logo">
+            <img class="logo__img" src="../Img/logolafloresta.png" alt="logo del club">
+        </div>
+        <div class="header__redes">
+            <ul>
+                <li class="header__redes__boton"><a href="#" class="header__redes__boton__hiper">E-mail</a></li>
+                <li class="header__redes__boton"><a href="#" class="header__redes__boton__hiper">Facebook</a></li>
+                <li class="header__redes__boton"><a href="#" class="header__redes__boton__hiper">Instagram</a></li>
+            </ul>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav__ul">
+                <li class="header__nav__ul__boton"><a href="../../index.html" class="header__nav__ul__boton__hiper">Home</a></li>
+                <li class="header__nav__ul__boton"><a href="actividades.html" class="header__nav__ul__boton__hiper">Actividades</a></li>
+                <li class="header__nav__ul__boton"><a href="restaurante.html" class="header__nav__ul__boton__hiper">Restaurant</a></li>
+                <li class="header__nav__ul__boton"><a href="historia.html" class="header__nav__ul__boton__hiper">Historia</a></li>
+                <li class="header__nav__ul__boton"><a href="contacto.html" class="header__nav__ul__boton__hiper">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- Fin del Header -->
+
+
+<!-- Comienzo del Main Contacto -->
+    <h1 class="titulo__contacto">Contacto</h1>
+    <main class="main__contacto">
+        <form class="formulario" action="datos.php" method="post" name="cantacto"> 
+            <h2 class="titulo__formulario">Completá el formulario y te contestamos lo antes posible</h2>
+            <label for="nombre">Nombre</label>
+            <input class="imput" type="text" name="nombre" placeholder="Escriba su nombre" required>
+            <label for="apellido">Apellido</label>
+            <input class="imput" type="text" name="apellido" placeholder="Escriba su apellido" required>
+            <label for="email">E-Mail</label>
+            <input class="imput" type="email" name="email" placeholder="Escriba su E-mail" required>
+            <div class="formulario__radio">
+                <label for="sexo">Hombre</label>
+                <input class="imput__radio" type="radio" name="sexo" value="Hombre">
+                <label for="sexo">Mujer</label>
+                <input class="imput__radio" type="radio" name="sexo" value="Mujer">
+            </div>
+            <label for="mensaje">Escriba aquí su mensaje</label>
+            <textarea class="imput--modif" name="mensaje" placeholder="Escriba aquí su mensaje" cols="30" rows="10" required></textarea>
+            <div class="formulario__botones">
+                <input class="formulario__botones" type="submit" value="Submit">
+                <input class="formulario__botones" type="reset" value="Reset">
+            </div>
+        </form>
+        <div class="donde-estamos">
+            <h3 class="titulo__mapa">¿Dónde nos encontramos?</h3>
+            <iframe class="mapa border" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.006965502472!2d-58.485704185051475!3d-34.6292642663568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc995a91072bb%3A0x84c1f03ea47646c7!2sClub%20Familiar%20%22La%20Floresta%22!5e0!3m2!1ses-419!2sar!4v1636492986904!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </main>
+<!-- Fin del Main Contacto -->
+
+    
+<!-- inicio del Footer -->
+    <footer class="footer">
+        <div class="footer__redes">
+            <ul class="footer__redes__ul">
+                <li class="footer__redes__ul_boton"><a href="#" class="footer__redes__ul_boton_hiper">E-mail</a></li>
+                <li class="footer__redes__ul_boton"><a href="#" class="footer__redes__ul_boton_hiper">Facebook</a></li>
+                <li class="footer__redes__ul_boton"><a href="#" class="footer__redes__ul_boton_hiper">Instagram</a></li>
+            </ul>
+            <p class="footer__contacto">Domicilio: Lorem Ipsum; CABA <br> Telefono: xxxx-xxxx</p>
+        </div>        
+        <p class="footer__derechos">@Villahoz Alejo - Futuro Programador Web</p>
+    </footer>
+<!-- Fin del Footer -->
+</body>
+</html>
